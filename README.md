@@ -10,14 +10,15 @@ So let me get this straight and give you an insight to what this repo is all abo
 
 Following is the list of the applications built during the learning.
 
-__1. Interactive Dictionary__
-    This week after revisiting the python lectures on udemy and reconceptualizing the fundamental knowledge I threw myself into the first and my favourite (application of the course), the Interactive dictionary. This dictionary is the simplest of its kind yet intelligent. Naa! It is not an AI application, but yes it uses a cool "instead of" feature similar to the "google search".
+### 1. Interactive Dictionary ###
+
+This week after revisiting the python lectures on udemy and reconceptualizing the fundamental knowledge I threw myself into the first and my favourite (application of the course), the Interactive dictionary. This dictionary is the simplest of its kind yet intelligent. Naa! It is not an AI application, but yes it uses a cool "instead of" feature similar to the "google search".
     
    - _JSON format_: 
     It uses the json format for storing data (like python dictionary) in Key-value pairs
    - _Counting for non existing words_:
     When the word requested is not present in the dictionary, instead of throwing error it handles it by printing relevant message.
-   - _Making program case sensitive_:
+   - _Making program case insensitive_:
     Offers users a flexible utility, even when the case of the letters are not proper. For example: "rAin" is interpreted as "rain"
    - _Calculating Similarity Ratio_:
     Yeah Baby! This is what we were waiting for, the feature which was mentioned above similar to  Google Search! It takes the dictionary to the next level by suggesting users alternative word in case of a spell mistake. It does so by choosing the word which has maximum similarity ratio between the incorrect word.
